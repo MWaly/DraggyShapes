@@ -5,15 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>03E0F81A-9D19-439C-BC12-6A95AEDE79C2</string>
+	<string>0AB167D2-B1B9-4908-9DE9-5FB22F565665</string>
 	<key>IDESourceControlProjectName</key>
 	<string>DraggyShapes</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1FD7A2E4-B5AA-4FDC-A9A3-062B79B33D00</key>
 		<string>https://github.com/MWaly/DraggyShapes.git</string>
-		<key>FA4EBBA6-1547-43AD-BF63-2C1F4AD9F6B0</key>
-		<string>https://github.com/MWaly/DraggyControls.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DraggyShapes.xcodeproj/project.xcworkspace</string>
@@ -21,11 +19,11 @@
 	<dict>
 		<key>1FD7A2E4-B5AA-4FDC-A9A3-062B79B33D00</key>
 		<string>../..</string>
-		<key>FA4EBBA6-1547-43AD-BF63-2C1F4AD9F6B0</key>
-		<string>../..</string>
+		<key>5471CF27-25C3-469B-97CC-48708EB5ED35</key>
+		<string>../../DraggyNotes</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/MWaly/DraggyControls.git</string>
+	<string>https://github.com/MWaly/DraggyShapes.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -36,7 +34,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FA4EBBA6-1547-43AD-BF63-2C1F4AD9F6B0</string>
+			<string>1FD7A2E4-B5AA-4FDC-A9A3-062B79B33D00</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DraggyNotes</string>
 		</dict>
@@ -44,7 +42,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1FD7A2E4-B5AA-4FDC-A9A3-062B79B33D00</string>
+			<string>5471CF27-25C3-469B-97CC-48708EB5ED35</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DraggyNotes</string>
 		</dict>
