@@ -10,4 +10,5 @@
 
 @interface UILabel (DraggyControl)
 
+- (void) adjustItToControlStandards;
 @end
