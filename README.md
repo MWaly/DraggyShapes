@@ -17,6 +17,7 @@
  Add an MWShape to your View controller as in example :
    
    For Basic shape:
+   
      MWShape* shape1=[MWShape shapeWithColor:[UIColor greenColor] andText:@"Object 1" frame:CGRectMake(0, 90, 70, 50)];
      
   For Shapes based on background images
@@ -31,16 +32,25 @@ Set the color of it when having being dragged
   [shape1 setHighlightingColor:[UIColor redColor]];
   
 Add it 
+
   [self.view addSubview:shape1];
     
-    Delegate Methods 
+    
+    
+   Delegate Methods 
     
 -(void)didTap:(MWShape*)tappedShape;
+
 // Check if overlapping or not and take an action then
+
 -(void)didMove:(MWShape*)movedShape;
+
 // Check if overlapping or not and take an action then
+
 -(void)didEndMove:(MWShape*)movedShape;
+
 // Check if overlapping or not and take an action then
+
 -(void)didRotate:(MWShape*)rotatedShape;
 
 Feel free to contact me for suggestions or any feedback
