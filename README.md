@@ -7,7 +7,7 @@
  Installation
  -------------
  
-
+ 
   Dragging the 'DraggyShapes' from the demo project 
  
  
@@ -29,29 +29,27 @@
     
 Set the color of it when having being dragged
 
-  [shape1 setHighlightingColor:[UIColor redColor]];
+  <code> [shape1 setHighlightingColor:[UIColor redColor]]; </code> 
   
 Add it 
 
-  [self.view addSubview:shape1];
+ <code> [self.view addSubview:shape1]; </code>
     
     
     
    Delegate Methods 
     
-  -(void)didTap:(MWShape*)tappedShape;
+<code> -(void)didTap:(MWShape*)tappedShape; </code>
 
-// Check if overlapping or not and take an action then
 
-  -(void)didMove:(MWShape*)movedShape;
+<code> -(void)didMove:(MWShape*)movedShape; </code>
 
-// Check if overlapping or not and take an action then
 
-  -(void)didEndMove:(MWShape*)movedShape;
+<code> -(void)didEndMove:(MWShape*)movedShape; </code>
 
-// Check if overlapping or not and take an action then
 
-  -(void)didRotate:(MWShape*)rotatedShape;
+
+<code> -(void)didRotate:(MWShape*)rotatedShape; </code>
 
 Feel free to contact me for suggestions or any feedback
     
