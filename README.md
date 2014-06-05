@@ -25,7 +25,7 @@
     MWShape* shape1=[MWShapeWithImage shapeWithImage:[UIImage imageNamed:@"Genie_cool.png"] andText:@"Test Image 1" frame:CGRectMake(65, 150, 130, 88)];
   
  Set the delegate   
-    shape1.delegate=self;
+  <code>  shape1.delegate=self; </code>
     
 Set the color of it when having being dragged
 
@@ -39,19 +39,19 @@ Add it
     
    Delegate Methods 
     
--(void)didTap:(MWShape*)tappedShape;
+  -(void)didTap:(MWShape*)tappedShape;
 
 // Check if overlapping or not and take an action then
 
--(void)didMove:(MWShape*)movedShape;
+  -(void)didMove:(MWShape*)movedShape;
 
 // Check if overlapping or not and take an action then
 
--(void)didEndMove:(MWShape*)movedShape;
+  -(void)didEndMove:(MWShape*)movedShape;
 
 // Check if overlapping or not and take an action then
 
--(void)didRotate:(MWShape*)rotatedShape;
+  -(void)didRotate:(MWShape*)rotatedShape;
 
 Feel free to contact me for suggestions or any feedback
     
