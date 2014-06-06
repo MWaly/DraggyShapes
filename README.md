@@ -16,23 +16,23 @@
  
  Add an MWShape to your View controller as in example :
    
-  For Basic shape:
+ Add a Basic shape:
    
      MWShape* shape1=[MWShape shapeWithColor:[UIColor greenColor] andText:@"Object 1" frame:CGRectMake(0, 90, 70, 50)];
      
-  For Shapes based on background images
+ Add a shape based on background images
   
     MWShape* shape1=[MWShapeWithImage shapeWithImage:[UIImage imageNamed:@"Genie_cool.png"] andText:@"Test Image 1" frame:CGRectMake(65, 150, 130, 88)];
   
-> Set the Delegate  
+ Set the Delegate  
 
-  <code>  shape1.delegate=self; </code>
+ <code>  shape1.delegate=self; </code>
     
-Set the color of it when having being dragged
+ Set the color of it when having being dragged
 
-  <code> [shape1 setHighlightingColor:[UIColor redColor]]; </code> 
+ <code> [shape1 setHighlightingColor:[UIColor redColor]]; </code> 
   
-> Add it 
+ Add it 
 
  <code> [self.view addSubview:shape1]; </code>
     
@@ -41,17 +41,16 @@ Set the color of it when having being dragged
 >  Delegate Methods  
    ---- 
    
-<code> -(void)didTap:(MWShape*)tappedShape; </code>
+ <code> -(void)didTap:(MWShape*)tappedShape; </code>
 
 
-<code> -(void)didMove:(MWShape*)movedShape; </code>
+ <code> -(void)didMove:(MWShape*)movedShape; </code>
 
 
-<code> -(void)didEndMove:(MWShape*)movedShape; </code>
+ <code> -(void)didEndMove:(MWShape*)movedShape; </code>
 
 
-
-<code> -(void)didRotate:(MWShape*)rotatedShape; </code>
+ <code> -(void)didRotate:(MWShape*)rotatedShape; </code>
 
 
 Feel free to contact me for suggestions or any feedback
